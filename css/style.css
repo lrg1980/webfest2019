@@ -1,0 +1,17 @@
+.embed-responsive {
+     position: relative;
+     background-image: url(../img/banda.jpg);
+     height: 50rem;
+     background-position: center center;
+}
+
+@media (min-width:992px) {
+     .embed-responsive {
+          background-image: unset;
+          height: auto;
+     }
+}
+.informacion-concierto {
+     position: absolute;
+     top: 0;
+}
