@@ -69,7 +69,8 @@ body {
      font-size: 2rem;
 }
 
-.informacion-concierto .text-dark {
+.informacion-concierto .text-dark,
+.sobre-festival .text-dark {
      color: #f53756!important;
      font-weight: 700;
 }
