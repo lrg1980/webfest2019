@@ -74,3 +74,30 @@ body {
      color: #f53756!important;
      font-weight: 700;
 }
+
+/* LINE UP */
+.separador:after{
+     content: '';
+     display: block;
+     height: 120px;
+     width: 200px;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: 120px;
+     margin: 0 auto;
+}
+
+.argentina:after{
+     background-image: url(../img/guitarra.png)          
+}
+
+.internacional:after {
+     background-image: url(../img/dj.png)     
+}
+
+.horario.bg-warning li:nth-child(2n+2) {
+     background-color: #eae05b!important;
+}
+.horario.bg-success li:nth-child(2n+2) {
+     background-color: #096e66bc !important;
+}
