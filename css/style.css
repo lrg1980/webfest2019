@@ -101,3 +101,40 @@ body {
 .horario.bg-success li:nth-child(2n+2) {
      background-color: #096e66bc !important;
 }
+
+.modal-content {
+     background-color: blue;
+     color: white;
+}
+
+/* Fecha */
+.fecha {
+     font-size: 3rem;
+}
+
+.fecha span {
+     font-weight: 700;
+}
+
+.fecha span::before {
+     content: ' - '
+}
+
+.fecha span:first-child::before{
+     display: none;
+}
+
+/* Boletos */
+
+.boletos .precio {
+     font-size: 2rem;
+}
+
+.boletos .active {
+     background-color: #752f97!important;
+     border-color: #752f97!important;
+}
+
+.list-group-item-success {
+     background-color: #4cb8b3!important;
+}
