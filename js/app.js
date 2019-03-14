@@ -1,5 +1,5 @@
 // Cambia de color el fondo al hacer scroll
-$(window).scroll = (e) => {
+window.onscroll = function (e) {
      const scroll = window.scrollY;
      
      const header = document.querySelector('#navegacion-principal');
