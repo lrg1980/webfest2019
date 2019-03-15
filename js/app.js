@@ -1,3 +1,16 @@
+// Smooth Scroll con JS Nativo
+
+document.querySelectorAll('.navbar .nav-link').forEach(enlace => {
+     enlace.addEventListener('click', (e) => {
+
+          e.preventDefault();
+          document.querySelector(enlace.getAttribute('href')).scrollIntoView({
+               behavior: 'smooth', 
+               block: 'start'
+          });
+     });
+});
+
 // Cambia de color el fondo al hacer scroll
 window.onscroll = function (e) {
      const scroll = window.scrollY;

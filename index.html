@@ -10,14 +10,21 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav id="navegacion-principal" class="navbar fixed-top navbar-light bg-transparent">
+  <nav id="navegacion-principal" class="navbar fixed-top navbar-light">
+    
     <div class="container">
       <a href="#" class="navbar-brand text-light">WFC Baires <span>2019</span></a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="" class="nav-link">Line Up</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Galería</a></li>
-        <li class="nav-item"><a href="" class="nav-link">Boletos</a></li>
+        <li class="nav-item">
+          <a href="#lineup" class="nav-link">Line Up</a>
+        </li>
+        <li class="nav-item">
+          <a href="#galeria" class="nav-link">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a href="#boletos" class="nav-link">Boletos</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -61,7 +68,7 @@
     <!-- / CONTAINER -->
   </main>
 
-  <div class="lineup bg-danger mb-5 p-5">
+  <div id="lineup" class="lineup bg-danger mb-5 p-5">
     <h2 class="text-center text-light">LineUp confirmado</h2>
     <h3 class="text-center text-uppercase text-light mt-4">Jueves 23</h3>
     <div class="container mt-4">
@@ -156,7 +163,7 @@
   <!-- / LineUP -->
 
   <!-- GALERÍA -->
-  <div class="galeria container">
+  <div id="galeria" class="galeria container">
     <h2 class="text-center">Galería</h2>
     <div class="row mt-4">
       <div class="col-6 col-sm-4 col-md-3 col-lg-2">
@@ -380,7 +387,7 @@
   </div>
   <!-- / Faltan -->
 
-  <div class="boletos bg-danger py-5">
+  <div id="boletos" class="boletos bg-danger py-5">
     <h2 class="text-center text-light mb-4">Boletos</h2>
     <div class="container">
       <div class="row">
